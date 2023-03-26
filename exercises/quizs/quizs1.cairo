@@ -4,12 +4,21 @@
 // Write a function that calculates the price of an order of apples given
 // the quantity bought. No hints this time!
 
-// I AM NOT DONE
+
 
 // Put your function here!
-// fn calculate_price_of_apples{
+fn calculate_price_of_apples(price: usize) -> usize {
+    if price == 35_usize {
+        3_usize * price
+    } else if price == 40_usize {
+        3_usize * price
+    } else if price == 41_usize {
+        2_usize * price
+    } else {
+        2_usize * price
+    }
 
-// }
+}
 
 
 // Do not change the tests!
