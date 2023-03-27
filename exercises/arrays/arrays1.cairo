@@ -12,7 +12,7 @@ fn create_array() -> Array<felt252> {
     let mut a = ArrayTrait::new(); // something to change here...
     a.append(0_felt252);
     a.append(1_felt252);
-    a.append(3_felt252);
+    a.append(2_felt252);
     a
 }
 
